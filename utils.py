@@ -4,6 +4,7 @@ import colorlog
 import random
 import torch
 
+import logging
 
 def create_logger(folder, filename):
     log_colors = {
@@ -14,8 +15,9 @@ def create_logger(folder, filename):
         'CRITICAL': 'yellow',
     }
 
-    import logging
     logger = logging.getLogger('ConZIC')
+    if len(logger.handlers) > 0:
+        return logger
     # %(filename)s$RESET:%(lineno)d
     # LOGFORMAT = "%(log_color)s%(asctime)s [%(log_color)s%(filename)s:%(lineno)d] | %(log_color)s%(message)s%(reset)s |"
     LOGFORMAT = ""
@@ -26,6 +28,9 @@ def create_logger(folder, filename):
     stream.setFormatter(colorlog.ColoredFormatter(LOGFORMAT, datefmt='%d %H:%M', log_colors=log_colors))
 
     # print to log file
+    import os, os.path
+    if not os.path.exists(os.path.join(folder)):
+        os.makedirs(os.path.join(folder))
     hdlr = logging.FileHandler(os.path.join(folder, filename))
     hdlr.setLevel(LOG_LEVEL)
     # hdlr.setFormatter(logging.Formatter("[%(asctime)s] %(message)s"))
