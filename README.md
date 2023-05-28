@@ -1,4 +1,8 @@
-# ConZIC
+# VZIC
+**Visual-conditioned Zero-shot Image Captioning based on ConZIC**  
+Natural Language Processing Final Project
+
+## ConZIC
 **[CVPR 2023][ConZIC: Controllable Zero-shot Image Captioning by Sampling-Based Polishing](https://arxiv.org/abs/2303.02437)**
 <br/>
 [Zequn Zeng](https://joeyz0z.github.io/),
