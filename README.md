@@ -2,6 +2,10 @@
 **Visual-conditioned Zero-shot Image Captioning based on ConZIC**  
 Natural Language Processing Final Project
 
+### Google Colaboratory  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stop1one/VZIC/blob/main/VZIC.ipynb)
+
+
 ## ConZIC
 **[CVPR 2023][ConZIC: Controllable Zero-shot Image Captioning by Sampling-Based Polishing](https://arxiv.org/abs/2303.02437)**
 <br/>
