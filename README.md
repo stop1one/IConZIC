@@ -3,7 +3,7 @@
 Natural Language Processing (COSE461) Final Project
 
 ### Google Colaboratory  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stop1one/VZIC/blob/main/VZIC.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stop1one/IconZIC/blob/main/IconZIC.ipynb)
 
 
 ## ConZIC
