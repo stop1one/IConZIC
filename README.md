@@ -1,9 +1,9 @@
-# IconZIC
-### Image-conditioned Zero-shot Image Captioning by Vision-Language Pre-Training Model
+# IConZIC
+### Image-Conditioned Zero-shot Image Captioning by Vision-Language Pre-Training Model
 Natural Language Processing (COSE461) Final Project
 
 ### Google Colaboratory  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stop1one/IconZIC/blob/main/IconZIC.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stop1one/IConZIC/blob/main/IConZIC.ipynb)
 
 
 ## ConZIC
