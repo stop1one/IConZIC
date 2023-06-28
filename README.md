@@ -1,8 +1,45 @@
 # IConZIC
-### Image-Conditioned Zero-shot Image Captioning by Vision-Language Pre-Training Model
+**[IConZIC: Image-Conditioned Zero-shot Image Captioning by Vision-Language Pre-Training Model (pdf)](/COSE461_Project_Final_Report.pdf)**
+
 Natural Language Processing (COSE461) Final Project
 
-### Google Colaboratory  
+## Abstract
+
+*The field of image captioning, which combines computer vision and natural language
+processing, has witnessed extensive research efforts. However, the exploration
+of zero-shot learning for image captioning remains relatively underexplored.
+Zero-shot image captioning research began with ZeroCap and was
+followed by ConZIC, which is currently considered state-of-the-art (SOTA). However,
+ConZIC still has certain limitations. To address these limitations and advance
+the field of zero-shot image captioning, we propose IConZIC (Image-
+Conditioned Zeroshot Image Captioning). IConZIC overcomes the initialization
+issue of ConZIC by leveraging the Vision-Language Pre-training(VLP) encoder,
+resulting in faster and more accurate caption generation.*
+
+## Approach
+<p align="center">
+  <img src="./IConZIC_images/architecture.png" width="1000" title="An overview of IConZIC" alt="">
+</p>
+
+### Algorithm
+<p align="center">
+  <img src="./IConZIC_images/algorithm.png" width="700" title="Algorithm of IConZIC" alt="">
+</p>
+
+## Results
+
+### Qualitative Results
+<p align="center">
+  <img src="./IConZIC_images/qualitative.png" width="1000" title="Qualitative Results" alt="">
+</p>
+
+### Comparison with ConZIC
+<p align="center">
+  <img src="./IConZIC_images/vsConZIC2.png" width="7000" title="Comparison with ConZIC" alt="">
+</p>
+
+
+## Google Colaboratory  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stop1one/IConZIC/blob/main/IConZIC.ipynb)
 
 
