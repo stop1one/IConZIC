@@ -35,7 +35,7 @@ resulting in faster and more accurate caption generation.*
 
 ### Comparison with ConZIC
 <p align="center">
-  <img src="./IConZIC_images/vsConZIC2.png" width="7000" title="Comparison with ConZIC" alt="">
+  <img src="./IConZIC_images/vsConZIC2.png" width="500" title="Comparison with ConZIC" alt="">
 </p>
 
 
